@@ -120,6 +120,27 @@ impl Display for JavaVersion {
             MajorVersion::J15 => {
                 write!(f, "Java SE 15 minor version {}", self.minor)
             }
+            MajorVersion::J16 => {
+                write!(f, "Java SE 15 minor version {}", self.minor)
+            }
+            MajorVersion::J17 => {
+                write!(f, "Java SE 15 minor version {}", self.minor)
+            }
+            MajorVersion::J18 => {
+                write!(f, "Java SE 15 minor version {}", self.minor)
+            }
+            MajorVersion::J19 => {
+                write!(f, "Java SE 15 minor version {}", self.minor)
+            }
+            MajorVersion::J20 => {
+                write!(f, "Java SE 15 minor version {}", self.minor)
+            }
+            MajorVersion::J21 => {
+                write!(f, "Java SE 15 minor version {}", self.minor)
+            }
+            MajorVersion::J22 => {
+                write!(f, "Java SE 15 minor version {}", self.minor)
+            }
         }
     }
 }
