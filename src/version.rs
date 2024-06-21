@@ -65,7 +65,7 @@ pub enum MajorVersion {
     /// Java SE 21
     J21,
     /// Java SE 22
-    J22
+    J22,
 }
 
 impl Display for JavaVersion {
@@ -121,25 +121,25 @@ impl Display for JavaVersion {
                 write!(f, "Java SE 15 minor version {}", self.minor)
             }
             MajorVersion::J16 => {
-                write!(f, "Java SE 15 minor version {}", self.minor)
+                write!(f, "Java SE 16 minor version {}", self.minor)
             }
             MajorVersion::J17 => {
-                write!(f, "Java SE 15 minor version {}", self.minor)
+                write!(f, "Java SE 17 minor version {}", self.minor)
             }
             MajorVersion::J18 => {
-                write!(f, "Java SE 15 minor version {}", self.minor)
+                write!(f, "Java SE 18 minor version {}", self.minor)
             }
             MajorVersion::J19 => {
-                write!(f, "Java SE 15 minor version {}", self.minor)
+                write!(f, "Java SE 19 minor version {}", self.minor)
             }
             MajorVersion::J20 => {
-                write!(f, "Java SE 15 minor version {}", self.minor)
+                write!(f, "Java SE 20 minor version {}", self.minor)
             }
             MajorVersion::J21 => {
-                write!(f, "Java SE 15 minor version {}", self.minor)
+                write!(f, "Java SE 21 minor version {}", self.minor)
             }
             MajorVersion::J22 => {
-                write!(f, "Java SE 15 minor version {}", self.minor)
+                write!(f, "Java SE 22 minor version {}", self.minor)
             }
         }
     }
