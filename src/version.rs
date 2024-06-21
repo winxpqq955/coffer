@@ -52,6 +52,20 @@ pub enum MajorVersion {
     J14,
     /// Java SE 15
     J15,
+    /// Java SE 16
+    J16,
+    /// Java SE 17
+    J17,
+    /// Java SE 18
+    J18,
+    /// Java SE 19
+    J19,
+    /// Java SE 20
+    J20,
+    /// Java SE 21
+    J21,
+    /// Java SE 22
+    J22
 }
 
 impl Display for JavaVersion {
